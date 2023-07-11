@@ -19,14 +19,22 @@ function App() {
   // }, []);
 
   useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+
     const handleLoad = () => {
       setIsLoading(false);
+      clearTimeout(timer); // Clear the timeout if 'load' event occurs
     };
 
     window.addEventListener("load", handleLoad);
 
+    timer = setTimeout(() => {
+      setIsLoading(false); // Set isLoading to false after 5 seconds as a fallback
+    }, 3500);
+
     return () => {
       window.removeEventListener("load", handleLoad);
+      clearTimeout(timer); // Clear the timeout when the component unmounts
     };
   }, []);
 
