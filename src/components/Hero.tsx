@@ -1,15 +1,14 @@
 import {
-  Stack,
-  Flex,
-  Button,
-  Text,
-  VStack,
-  useBreakpointValue,
+    Button,
+    Flex,
+    Stack,
+    Text,
+    VStack,
+    useBreakpointValue,
 } from "@chakra-ui/react";
 
 import { Link as ScrollLink } from "react-scroll";
 
-import heroBg from "../assets/triangle.png";
 import Introduction from "./Introduction";
 
 export default function Hero() {

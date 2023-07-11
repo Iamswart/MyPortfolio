@@ -1,26 +1,22 @@
 import {
-  Box,
-  Container,
-  Heading,
-  SimpleGrid,
-  Icon,
-  Text,
-  Stack,
-  HStack,
-  VStack,
-  GridItem,
-  Button,
+    Box,
+    Button,
+    Container,
+    GridItem,
+    HStack,
+    Heading,
+    Icon,
+    SimpleGrid,
+    Stack,
+    Text
 } from "@chakra-ui/react";
-import { CheckIcon } from "@chakra-ui/icons";
-import CustomHeading from "./CustomHeading";
 import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-  FaPhone,
+    FaGithub,
+    FaLinkedin,
+    FaPhone,
+    FaTwitter
 } from "react-icons/fa";
+import CustomHeading from "./CustomHeading";
 
 import { GrMail } from "react-icons/gr";
 

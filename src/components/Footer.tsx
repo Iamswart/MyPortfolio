@@ -1,15 +1,15 @@
 import {
-  Box,
-  chakra,
-  Container,
-  Link,
-  Stack,
-  Text,
-  useColorModeValue,
-  VisuallyHidden,
+    Box,
+    chakra,
+    Container,
+    Link,
+    Stack,
+    Text,
+    useColorModeValue,
+    VisuallyHidden,
 } from "@chakra-ui/react";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, FaPhone } from "react-icons/fa";
 import { ReactNode } from "react";
+import { FaGithub, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 

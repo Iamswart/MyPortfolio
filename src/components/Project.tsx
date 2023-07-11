@@ -1,20 +1,14 @@
 import {
-  Box,
-  Container,
-  Heading,
-  SimpleGrid,
-  Icon,
-  Text,
-  Stack,
-  Image,
-  useColorModeValue,
-  HStack,
-  VStack,
-  GridItem,
-  Button,
-  Flex,
-  StackDivider,
-  Link,
+    Box,
+    Button,
+    Container,
+    Flex,
+    Heading,
+    Image,
+    Link,
+    SimpleGrid,
+    Stack,
+    Text
 } from "@chakra-ui/react";
 import projects from "../data/projects";
 // import {

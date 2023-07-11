@@ -1,17 +1,17 @@
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
-  Avatar,
-  Box,
-  Button,
-  Flex,
-  HStack,
-  IconButton,
-  Link,
-  Menu,
-  MenuButton,
-  Stack,
-  Text,
-  useDisclosure,
+    Avatar,
+    Box,
+    Button,
+    Flex,
+    HStack,
+    IconButton,
+    Link,
+    Menu,
+    MenuButton,
+    Stack,
+    Text,
+    useDisclosure,
 } from "@chakra-ui/react";
 import { ReactNode, useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
