@@ -40,7 +40,7 @@ export default function Hero() {
             lineHeight={1.6}
             textAlign={"center"}
             width={"100%"}
-            fontSize={useBreakpointValue({ base: "6xl", md: "6xl" })}
+            fontSize={useBreakpointValue({ base: "5xl", md: "6xl" })}
           >
             <Introduction />
           </Text>

@@ -34,7 +34,7 @@ export default function SignupCard() {
         bgGradient={"linear(to-r, rgba(245,245,245,.8), rgba(245,245,245,.8))"}
         pb={16}
       >
-        <Stack spacing={8} mx={"auto"} py={12} px={6} w={"80%"}>
+        <Stack spacing={8} mx={"auto"} py={12} px={[2,6]} w={["100%", "80%"]}>
           <Stack align={"center"}>
             <CustomHeading>CONTACT</CustomHeading>
             <Text fontSize={"lg"} color={"gray.600"}>
@@ -42,7 +42,7 @@ export default function SignupCard() {
               ✌️
             </Text>
           </Stack>
-          <Box rounded={"lg"} bg={"#fff"} boxShadow={"lg"} p={12}>
+          <Box rounded={"lg"} bg={"#fff"} boxShadow={"lg"} p={[4, 12]}>
             <Stack spacing={4}>
               <FormControl id="firstName" isRequired>
                 <FormLabel>Name</FormLabel>
@@ -57,13 +57,13 @@ export default function SignupCard() {
                 <FormLabel>Message</FormLabel>
                 <Textarea focusBorderColor="#7843e9" />
               </FormControl>
-              <Flex pt={2} justifyContent="flex-end">
+              <Flex pt={2} justifyContent={["center","flex-end"]}>
                 <Button
                   loadingText="Submitting"
                   px={24}
                   py={7}
                   letterSpacing={"1px"}
-                  size="lg"
+                //   size="lg"
                   bg={"#7843e9"}
                   color={"white"}
                   maxW={"25%"}

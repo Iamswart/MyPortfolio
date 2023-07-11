@@ -88,7 +88,7 @@ export default function Project() {
                   bg={"#7843e9"}
                   mt={6}
                   color={"#fff"}
-                  maxW={"50%"}
+                  maxW={["65%","50%"]}
                   // _hover={{ bg: "blue.500" }}
                   letterSpacing={"1px"}
                   borderRadius={"5px"}
