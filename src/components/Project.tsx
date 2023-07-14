@@ -1,14 +1,14 @@
 import {
-    Box,
-    Button,
-    Container,
-    Flex,
-    Heading,
-    Image,
-    Link,
-    SimpleGrid,
-    Stack,
-    Text
+  Box,
+  Button,
+  Container,
+  Flex,
+  Heading,
+  Image,
+  Link,
+  SimpleGrid,
+  Stack,
+  Text,
 } from "@chakra-ui/react";
 import projects from "../data/projects";
 // import {
@@ -50,7 +50,7 @@ export default function Project() {
         <CustomHeading>PROJECTS</CustomHeading>
         <Text color={"gray.600"} fontSize={"xl"}>
           Here you will find some of the personal and clients projects that I
-          created with each project containing its own case study
+          created with each project containing its own live link.
         </Text>
       </Stack>
 
@@ -69,6 +69,7 @@ export default function Project() {
                 key={project.id}
                 src={project.imageUrl}
                 objectFit={"cover"}
+                loading="lazy"
               />
             </Flex>
 
@@ -88,14 +89,13 @@ export default function Project() {
                   bg={"#7843e9"}
                   mt={6}
                   color={"#fff"}
-                  maxW={["65%","50%"]}
-                  // _hover={{ bg: "blue.500" }}
+                  maxW={["65%", "50%"]}
                   letterSpacing={"1px"}
                   borderRadius={"5px"}
                   fontWeight={"500"}
                   boxShadow={"0 5px 15px 0 rgba(0,0,0,.15)"}
                   transition={"transform 0.5s"}
-                  _hover={{ bg: "#7843e9", transform: "translateY(-5px)" }} 
+                  _hover={{ bg: "#7843e9", transform: "translateY(-5px)" }}
                   _active={{ bg: "#7843e9" }}
                 >
                   PROJECT LINK

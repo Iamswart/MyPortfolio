@@ -1,21 +1,16 @@
 import {
-    Box,
-    Button,
-    Container,
-    GridItem,
-    HStack,
-    Heading,
-    Icon,
-    SimpleGrid,
-    Stack,
-    Text
+  Box,
+  Button,
+  Container,
+  GridItem,
+  HStack,
+  Heading,
+  Icon,
+  SimpleGrid,
+  Stack,
+  Text,
 } from "@chakra-ui/react";
-import {
-    FaGithub,
-    FaLinkedin,
-    FaPhone,
-    FaTwitter
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 import CustomHeading from "./CustomHeading";
 
 import { GrMail } from "react-icons/gr";
@@ -79,7 +74,7 @@ export default function About() {
                 experience then don't hesitate to contact me.
               </Text> */}
             </Text>
-            <HStack spacing={8} mt={8}>
+            {/* <HStack spacing={8} mt={8}>
               <a
                 href="https://www.linkedin.com/in/khabbab-abdurrazaq-65b676118/"
                 target="_blank"
@@ -107,7 +102,7 @@ export default function About() {
               <a href="mailto:swartjide@gmail.com">
                 <Icon as={GrMail} boxSize={6} />
               </a>
-            </HStack>
+            </HStack> */}
           </GridItem>
           <GridItem>
             <Heading mb={8} fontSize={"3xl"}>
@@ -129,6 +124,39 @@ export default function About() {
                 {skill}
               </Button>
             ))}
+            <Heading my={8} fontSize={"3xl"}>
+              Social
+            </Heading>
+            <HStack spacing={8} mt={8}>
+              <a
+                href="https://www.linkedin.com/in/khabbab-abdurrazaq-65b676118/"
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                <Icon color="#7843e9" as={FaLinkedin} boxSize={6} />
+              </a>
+              <a
+                href="https://twitter.com/Big_Swart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon color="#7843e9" as={FaTwitter} boxSize={6} />
+              </a>
+              <a
+                href="https://github.com/Iamswart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon color="#7843e9" as={FaGithub} boxSize={6} />
+              </a>
+              <a href="tel:+2349027710396">
+                <Icon color="#7843e9" as={FaPhone} boxSize={6} />
+              </a>
+              <a href="mailto:swartjide@gmail.com">
+                <Icon color="#7843e9" as={GrMail} boxSize={6} />
+              </a>
+            </HStack>
           </GridItem>
         </SimpleGrid>
       </Container>
