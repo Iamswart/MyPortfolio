@@ -28,7 +28,7 @@ export default [
   {
     id: 3,
     title: "St.Agnes Catholic Church",
-    link: "https://stagnes.vercel.app/",
+    link: "http://saintagnesmaryland.org/",
     imageUrl:
       "https://res.cloudinary.com/dfscst5lw/image/upload/v1689347768/portfolio_website/agnes_pgrxyq.png",
     skills: ["HTML", "CSS", "JavaScript", "GIT", "Php"],
