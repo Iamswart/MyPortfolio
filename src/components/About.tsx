@@ -21,10 +21,12 @@ const skills = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "Express",
+  "NodeJS",
+  "ExpressJS",
+  "NestJS",
   "React",
   "Python",
-  "Django",
+  "DjangoREST",
   "Php",
   "Figma",
   "Redis",
@@ -33,6 +35,8 @@ const skills = [
   "SQS",
   "RabbitMQ",
   "AWS",
+  "Digital Ocean",
+  "Docker"
 ];
 
 export default function About() {
